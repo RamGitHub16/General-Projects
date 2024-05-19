@@ -1,0 +1,18 @@
+Request json for Register the Borrower
+
+URL :http://localhost:8080/api/borrowers
+
+Method : POST
+
+request body: 
+{
+    "name": "TestUser",
+    "email": "TestUser@example.com"
+}
+
+Response:
+{
+    "id": 7,
+    "name": "TestUser",
+    "email": "TestUser@example.com"
+}

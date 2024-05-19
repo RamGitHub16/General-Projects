@@ -1,0 +1,21 @@
+Request Json for Register the book
+
+URL :http://localhost:8080/api/books
+
+Method : POST
+
+request body: 
+{
+    "isbn": "123-9-31-198450-4",
+    "title": "Great Expectations",
+    "author": "Charles Dickens"
+}
+
+Response:
+{
+    "id": 74,
+    "isbn": "123-9-31-198450-4",
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "borrowed": false
+}

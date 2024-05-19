@@ -1,0 +1,109 @@
+Retrieve All the Book Details
+
+URL :http://localhost:8080/api/books
+
+Method : GET
+
+request body: 
+
+Response:
+[
+    {
+        "id": 1,
+        "isbn": "978-3-16-148410-0",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "borrowed": true
+    },
+    {
+        "id": 2,
+        "isbn": "879-4-17-148410-0",
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "borrowed": true
+    },
+    {
+        "id": 3,
+        "isbn": "879-4-17-148410-0",
+        "title": "A tale of two cities",
+        "author": "Charles Dickens",
+        "borrowed": false
+    },
+    {
+        "id": 4,
+        "isbn": "879-4-17-148410-0",
+        "title": "Alice in Wonderland",
+        "author": "Lewis Carrol",
+        "borrowed": true
+    },
+    {
+        "id": 5,
+        "isbn": "789-5-18-158420-1",
+        "title": "Time Machine",
+        "author": "H.G Wells",
+        "borrowed": true
+    },
+    {
+        "id": 6,
+        "isbn": "678-6-19-169430-2",
+        "title": "David Copperfield",
+        "author": "Charles Dickens",
+        "borrowed": false
+    },
+    {
+        "id": 7,
+        "isbn": "567-7-20-179530-3",
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "borrowed": false
+    },
+    {
+        "id": 8,
+        "isbn": "345-8-21-189540-4",
+        "title": "Waste Land",
+        "author": "T.S Eliot",
+        "borrowed": false
+    },
+    {
+        "id": 9,
+        "isbn": "345-8-21-189540-4",
+        "title": "Treasure Island",
+        "author": "R.L. Stevenson",
+        "borrowed": false
+    },
+    {
+        "id": 10,
+        "isbn": "345-8-21-189540-4",
+        "title": "Romeo and Juliet",
+        "author": "William Shakespeare",
+        "borrowed": false
+    },
+    {
+        "id": 11,
+        "isbn": "345-8-21-189540-4",
+        "title": "Macbeth",
+        "author": "William Shakespeare",
+        "borrowed": false
+    },
+    {
+        "id": 12,
+        "isbn": "345-8-21-189540-4",
+        "title": "The Merchant of Venice",
+        "author": "William Shakespeare",
+        "borrowed": false
+    },
+    {
+        "id": 42,
+        "isbn": "345-8-21-189540-4",
+        "title": "The Merchant of Venice",
+        "author": "William Shakespeare",
+        "borrowed": false
+    },
+    {
+        "id": 74,
+        "isbn": "123-9-31-198450-4",
+        "title": "Great Expectations",
+        "author": "Charles Dickens",
+        "borrowed": false
+    }
+]

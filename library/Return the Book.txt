@@ -1,0 +1,17 @@
+Return the Book
+
+
+URL :http://localhost:8080/api/borrowers/{borrowerId}/return/{bookId}
+
+Method : POST
+
+Path Param: {borrowerId}&{bookId}
+
+Response:
+{
+    "id": 7,
+    "isbn": "567-7-20-179530-3",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "borrowed": false
+}
