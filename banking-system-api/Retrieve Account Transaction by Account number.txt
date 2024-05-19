@@ -1,0 +1,26 @@
+Request
+
+URL: http://localhost:8080/api/v1/accounts/9182837465/transactions
+
+Method : GET
+
+
+
+Reponse
+
+
+[
+    {
+        "id": 83,
+        "account": {
+            "id": 116,
+            "accountNumber": "9182837465",
+            "accountHolderName": "Charles",
+            "accountType": "Savings",
+            "balance": 3000.00
+        },
+        "timestamp": "2024-04-24T16:56:15.135106",
+        "amount": -500.00,
+        "description": "Transferred to 5463728109"
+    }
+]

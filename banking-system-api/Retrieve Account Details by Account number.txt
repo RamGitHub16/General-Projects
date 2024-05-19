@@ -1,0 +1,18 @@
+Request
+
+URL: http://localhost:8080/api/v1/accounts/1234567890
+
+Method: GET
+
+
+
+Response
+
+
+{
+    "id": 2,
+    "accountNumber": "1234567890",
+    "accountHolderName": "John Doe",
+    "accountType": "Savings",
+    "balance": 1200.00
+}

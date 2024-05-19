@@ -1,0 +1,21 @@
+Request
+
+URL: http://localhost:8080/api/v1/accounts/transfer
+
+Method : POST
+
+
+request body:
+
+{
+    "senderAccountNumber": "9182837465",
+    "recipientAccountNumber": "5463728109",
+    "amount": 500.00
+}
+
+
+
+Reponse:
+
+
+Transfer successful
