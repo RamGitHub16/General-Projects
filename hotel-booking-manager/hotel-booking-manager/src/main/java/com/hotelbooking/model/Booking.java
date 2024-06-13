@@ -1,16 +1,15 @@
 package com.hotelbooking.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Booking {
     private String guestName;
     private int roomNumber;
-    private Date date;
+    private LocalDate date;
 
-    public Booking() {
-    }
+    public Booking() {}
 
-    public Booking(String guestName, int roomNumber, Date date) {
+    public Booking(String guestName, int roomNumber, LocalDate date) {
         this.guestName = guestName;
         this.roomNumber = roomNumber;
         this.date = date;
@@ -32,15 +31,15 @@ public class Booking {
         this.roomNumber = roomNumber;
     }
 
-    public Date getDate() {
-        return date;
-    }
+    public LocalDate getDate() {
+		return date;
+	}
 
-    public void setDate(Date date) {
-        this.date = date;
-    }
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
 
-    @Override
+	@Override
     public String toString() {
         return "Booking{" +
                 "guestName='" + guestName + '\'' +

@@ -1,12 +1,17 @@
 package com.hotelbooking.model;
 
-import java.util.Date;
+import java.time.LocalDate;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 public class BookingRequest {
     private String guestName;
     private int roomNumber;
-    private Date date;
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    private LocalDate date;
+    
+    
     public String getGuestName() {
         return guestName;
     }
@@ -23,11 +28,13 @@ public class BookingRequest {
         this.roomNumber = roomNumber;
     }
 
-    public Date getDate() {
-        return date;
-    }
+	public LocalDate getDate() {
+		return date;
+	}
 
-    public void setDate(Date date) {
-        this.date = date;
-    }
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+
+
 }
